@@ -1,4 +1,4 @@
-import { pipeline } from "@xenova/transformers";
+import { pipeline } from '@xenova/transformers';
 
 // Use the Singleton pattern to enable lazy construction of the pipeline.
 // NOTE: We wrap the class in a function to prevent code duplication (see below).
