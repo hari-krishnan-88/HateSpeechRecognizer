@@ -66,8 +66,4 @@ ENV HOSTNAME localhost
 RUN mkdir -p /app/node_modules/@xenova/.cache/
 RUN chmod 777 -R /app/node_modules/@xenova/
 
-<<<<<<< HEAD
 CMD ["node", "server.js"]
-=======
-CMD ["node", "server.js"]
->>>>>>> db2bfbc1d546fd846e26699216b46d7a3cfab7bd
